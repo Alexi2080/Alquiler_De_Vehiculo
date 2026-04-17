@@ -15,7 +15,9 @@
     }
     public override int PrecioAlquiler()
     {
-       Console.WriteLine("El precio de alquiler del camión es de $150 por día");
+        Console.WriteLine();
+        Console.WriteLine("Precio para el camión");
+        Console.WriteLine("El precio de alquiler del camión es de $150 por día");
        return 150;
     }
 
@@ -27,6 +29,7 @@
 
     public void MostrarInformacion()
     {
+        Console.WriteLine("Información del camión:");
         Console.WriteLine($"Marca: {Marca}");
         Console.WriteLine($"ID: {IdVehiculo}");
         Console.WriteLine($"Placa: {Placa}");
