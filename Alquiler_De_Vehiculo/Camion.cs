@@ -25,4 +25,13 @@
         return 9.75;
     }
 
+    public void MostrarInformacion()
+    {
+        Console.WriteLine($"Marca: {Marca}");
+        Console.WriteLine($"ID: {IdVehiculo}");
+        Console.WriteLine($"Placa: {Placa}");
+        Console.WriteLine($"Estado: {Estado}");
+        Console.WriteLine($"Tipo de carga: {TipoCarga}");
+    }
+
 }

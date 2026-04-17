@@ -24,8 +24,13 @@
         Console.WriteLine("El costo por kilómetro de la moto es de $5.50");
         return 5.50;
     }
-
-
-
+    public void MostrarInformacion()
+    {
+        Console.WriteLine($"Marca: {Marca}");
+        Console.WriteLine($"ID: {IdVehiculo}");
+        Console.WriteLine($"Placa: {Placa}");
+        Console.WriteLine($"Estado: {Estado}");
+        Console.WriteLine($"Cilindraje: {Cilindraje} cc");
+    }
 
 }
